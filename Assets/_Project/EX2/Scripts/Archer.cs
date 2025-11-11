@@ -14,9 +14,7 @@ public class Archer : Character
         for (int i = 0; i < 2; i++)
         {
             target.TakeDamage(7);
-            Debug.Log($"{_nome} l'arcere ha scagliato la freccia numero = {i+1}");
+            Debug.Log($"{_nome} ha scagliato la freccia numero = {i+1}");
         }
     }
-
-
 }

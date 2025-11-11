@@ -17,7 +17,7 @@ public class PallaMagica : Proiettile
     {
         Debug.Log("La palla magica è stato lanciata !");
         int randomNumber = Random.Range(0, MaxRimbalzi + 1);
-        Debug.Log($"La palla magica ha rimbalzato : {randomNumber} con velocità : {_velocita} e gitata : {_gittata}");
+        Debug.Log($"La palla magica ha rimbalzato : {MaxRimbalzi} con velocità : {_velocita} e gitata : {_gittata}");
     }
 
 }

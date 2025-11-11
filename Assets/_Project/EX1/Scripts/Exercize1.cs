@@ -13,7 +13,6 @@ public class Exercize1 : MonoBehaviour
         PallaMagica magicball = new PallaMagica(10.0f, 15.0f);
         PallaMagica redmagicball = new PallaMagica(10.0f, 15.0f);
 
-
         Proiettili.Add(redarrow);
         Proiettili.Add(greenarrow);
         Proiettili.Add(magicball);
@@ -23,13 +22,5 @@ public class Exercize1 : MonoBehaviour
         {
             Proiettili[i].Lancia();
         }
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

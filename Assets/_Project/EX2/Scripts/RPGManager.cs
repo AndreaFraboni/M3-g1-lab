@@ -22,7 +22,7 @@ public class RPGManager : MonoBehaviour
         foreach (Character character in ListaCharacters)
         {
             character.Attack(Monster);
-            Debug.Log($"{Monster._nome} {Monster._hp}");
+            Debug.Log($"{Monster._nome} attaccato con hp rimanente = {Monster._hp}");
         }
     }
 }

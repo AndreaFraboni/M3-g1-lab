@@ -16,6 +16,7 @@ public class Freccia : Proiettile
     public override void Lancia()
     {
         Debug.Log("La freccia è stato lanciata !");
+        numeroFrecceSimultanee++;
         Debug.Log($"Il numero di frecce simultanee scoccate sono : {numeroFrecceSimultanee} con velocità : {_velocita} e gittata : {_gittata}");
     }
 

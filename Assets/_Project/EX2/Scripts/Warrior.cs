@@ -12,11 +12,6 @@ public class Warrior : Character
     public override void Attack(Character target)
     {
         target.TakeDamage(10);
-        Debug.Log($"{target._nome} Colpisce con la spada");
+        Debug.Log($"{_nome} Colpisce con la spada");
     }
-
-
-
-
-
 }

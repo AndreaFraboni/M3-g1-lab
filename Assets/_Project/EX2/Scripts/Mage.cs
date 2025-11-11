@@ -12,7 +12,6 @@ public class Mage : Character
     public override void Attack(Character target)
     {
         target.TakeDamage(12);
-
+        Debug.Log($"{_nome} lancia una magia");
     }
-
 }
