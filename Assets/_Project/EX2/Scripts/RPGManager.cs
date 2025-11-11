@@ -24,5 +24,14 @@ public class RPGManager : MonoBehaviour
             character.Attack(Monster);
             Debug.Log($"{Monster._nome} attaccato con hp rimanente = {Monster._hp}");
         }
+
+        Debug.Log("TakeDamage TEST : ");
+
+        foreach (Character character in ListaCharacters)
+        {
+            Debug.Log($"{character._nome} ora ha un hp = {character._hp}");
+            character.TakeDamage(Random.Range(1,20+1));
+            Debug.Log($"{character._nome} dopo danno subito ora ha hp = {character._hp}");
+        }
     }
 }
