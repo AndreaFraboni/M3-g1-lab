@@ -19,9 +19,15 @@ public class Exercize1 : MonoBehaviour
         Proiettili.Add(magicball);
         Proiettili.Add(redmagicball);
 
-        for (int i = 0; i < Proiettili.Count; i++)
+        //for (int i = 0; i < Proiettili.Count; i++)
+        //{
+        //    Proiettili[i].Lancia();
+        //}
+
+        foreach (Proiettile item in Proiettili)
         {
-            Proiettili[i].Lancia();
+            item.Lancia();
         }
+
     }
 }

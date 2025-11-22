@@ -16,6 +16,8 @@ public class PallaMagica : Proiettile
 
     public override void Lancia()
     {
+        Debug.Log("La palla magica è stata lanciata !");
+
         int randomNumber = Random.Range(0, maxRimbalzi + 1);
         if (randomNumber <= 0)
         {
